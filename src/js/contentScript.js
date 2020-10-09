@@ -465,6 +465,23 @@ if (matchDomain('elmercurio.com')) {
   document.querySelectorAll('div[class*="fancybox"]').forEach(function (el) {
     removeDOMElement(el);
   });
+} else if (matchDomain('tri-cityherald.com')) {
+  window.setTimeout(function () {
+    // remove modal class from all elements
+    document.querySelectorAll('div.modal').forEach(function (el) {
+      removeDOMElement(el);
+    });
+    // Remove Blurred Style from all matching Divs
+    document.getElementById('container').removeAttribute('style');
+    document.querySelectorAll('div[style~="filter"]').forEach(function (el) {
+      el.removeAttribute('style');
+    });
+    document
+      .querySelectorAll('div[class~="NewsletterSignupSplash"]')
+      .forEach(function (el) {
+        el.removeAttribute('class');
+      });
+  }, 2000); // Delay (in milliseconds)
 }
 
 function matchDomain (domains) {

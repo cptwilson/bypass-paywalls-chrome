@@ -140,6 +140,7 @@ const defaultSites = {
   'The Wrap': 'thewrap.com',
   'Times Literary Supplement': 'the-tls.co.uk',
   'Towards Data Science': 'towardsdatascience.com',
+  'Tri-City Herald': 'tri-cityherald.com',
   'Trouw': 'trouw.nl',
   'Vanity Fair': 'vanityfair.com',
   'Vrij Nederland': 'vn.nl',

@@ -165,6 +165,7 @@
 [TheMarker](https://www.themarker.com)\
 [Times Literary Supplement](https://www.the-tls.co.uk)\
 [Towards Data Science](https://www.towardsdatascience.com)\
+[Tri-City Herald](https://tri-cityherald.com)\
 [Trouw](https://www.trouw.nl)\
 [Vanity Fair](https://www.vanityfair.com)\
 [Vrij Nederland](https://www.vn.nl)\

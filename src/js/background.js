@@ -49,6 +49,7 @@ const allowCookies = [
   'themercury.com.au',
   'thestar.com',
   'towardsdatascience.com',
+  'tri-cityherald.com',
   'trouw.nl',
   'vn.nl',
   'volkskrant.nl',
@@ -98,6 +99,7 @@ const removeCookies = [
   'thediplomat.com',
   'thestar.com',
   'towardsdatascience.com',
+  'tri-cityherald.com',
   'vn.nl',
   'wired.com',
   'wsj.com'
