@@ -472,7 +472,7 @@ if (matchDomain('elmercurio.com')) {
       removeDOMElement(el);
     });
     // Remove Blurred Style from all matching Divs
-    document.getElementById('container').removeAttribute('style');
+    //document.getElementById('container').removeAttribute('style');
     document.querySelectorAll('div[style~="filter"]').forEach(function (el) {
       el.removeAttribute('style');
     });
